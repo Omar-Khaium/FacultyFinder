@@ -103,6 +103,15 @@
 			faculty_phone = document.getElementById('faculty_phone').value = "";
 			faculty_email = document.getElementById('faculty_email').value = "";
 			faculty_desk = document.getElementById('faculty_desk').value = "";
+			
+			document.getElementById('faculty_name_error').style.display = "none";
+			document.getElementById('faculty_designation_error').style.display = "none";
+			document.getElementById('faculty_department_error').style.display = "none";
+			document.getElementById('faculty_phone_error').style.display = "none";
+			document.getElementById('faculty_email_empty_error').style.display = "none";
+			document.getElementById('faculty_email_invalid_error').style.display = "none";			
+			document.getElementById('faculty_email_format_error').style.display = "none";
+			document.getElementById('faculty_desk_error').style.display = "none";
 		}
 	
 		function submitData(){
